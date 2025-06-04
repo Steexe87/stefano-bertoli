@@ -88,3 +88,21 @@ ul {
     margin: 20px auto;
     display: block;
 }
+
+.project {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #007acc;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.project a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
