@@ -199,5 +199,23 @@ La seconda è il viaggio. Amo scoprire culture nuove, cogliere sfumature, impara
     <footer>
         <p>© 2025 Stefano Bertoli | <a href="http://linkedin.com/in/stefano-bertoli-79162486" target="_blank">LinkedIn</a></p>
     </footer>
+    
+    <button onclick="topFunction()" id="scrollTopBtn" title="Torna su">↑</button>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            var btn = document.getElementById("scrollTopBtn");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    
 </body>
 </html>
