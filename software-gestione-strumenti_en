@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualibro - Excel-Based Software for Managing Measuring Instruments - Stefano Bertoli</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="fade-in">
+        <img src="Qualibro_OK.jpg" alt="Logo Qualibro" class="Qualibro-pic">
+        <p>Excel-Based Software for Managing Measuring Instruments</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+
+    <main>
+        <section id="software-details" class="fade-in">
+            <h2>Software for Managing Measuring Instruments</h2>
+            <p>This project involves the development of software dedicated to the management of measuring instruments within a company. The goal is to simplify the management process, improving accuracy while reducing time and intervention costs.</p>
+            
+            <h3>Key Features</h3>
+      <ul>
+          <li>Easy and intuitive management of measuring instruments</li>
+          <li>Monitoring of calibration status for each instrument</li>
+          <li>Fast, simple, and cost-effective printing of calibration labels to apply to instruments</li>
+      </ul>
+
+            <h3>Technologies Used:</h3>
+            <ul>
+                <li>Microsoft Excel</li>
+            </ul>
+
+            <h3>Advantages</h3>
+              <p>The software, when used regularly within the company, improves the efficiency and management of measuring instruments, reducing management costs.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Stefano Bertoli | <a href="http://linkedin.com/in/stefano-bertoli-79162486" target="_blank">LinkedIn</a></p>
+    </footer>
+
+    <button onclick="topFunction()" id="scrollTopBtn" title="Torna su">↑</button>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            var btn = document.getElementById("scrollTopBtn");
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+</html>
