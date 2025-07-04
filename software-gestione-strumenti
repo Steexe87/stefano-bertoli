@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Gestione Strumenti di Misura - Stefano Bertoli</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="fade-in">
+        <h1><strong><font face="Gill Sans Nova" color="white">STEFANO BERTOLI</strong></font></h1>
+        <p>Software Gestione Strumenti di Misura</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#chisono">Chi Sono</a>
+        <a href="#esperienza">Lavoro</a>
+        <a href="#formazione">Formazione</a>
+        <a href="#competenze">Competenze</a>
+        <a href="#passioni">Passioni</a>
+        <a href="#progetti">I miei progetti</a>
+        <a href="#volontariato">Volontariato</a>
+        <a href="#contatti">Contatti</a>
+    </nav>
+
+    <main>
+        <section id="software-details" class="fade-in">
+            <h2>Software Gestione Strumenti di Misura</h2>
+            <p>Questo progetto riguarda lo sviluppo di un software dedicato alla gestione degli strumenti di misura all’interno di un’azienda. L'obiettivo è quello di semplificare la gestione, migliorando la precisione e riducendo i tempi ed i costi di intervento.</p>
+            
+            <h3>Funzionalità principali:</h3>
+            <ul>
+                <li>Gestione facile ed intuitiva degli strumenti di misura</li>
+                <li>Monitoraggio dello stato di taratura degli strumenti</li>
+                <li>Stampaggio facile ed economico di etichette di taratura da applicare sugli strumenti</li>
+             </ul>
+
+            <h3>Tecnologie utilizzate:</h3>
+            <ul>
+                <li>Microsoft Excel</li>
+            </ul>
+
+            <h3>Vantaggi</h3>
+            <p>Il software, se utilizzato regolarmente all’interno dell’azienda, migliora l’efficienza e la gestione degli strumenti di misura, riducendo i costi di gestione.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Stefano Bertoli | <a href="http://linkedin.com/in/stefano-bertoli-79162486" target="_blank">LinkedIn</a></p>
+    </footer>
+
+    <button onclick="topFunction()" id="scrollTopBtn" title="Torna su">↑</button>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            var btn = document.getElementById("scrollTopBtn");
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+</html>
