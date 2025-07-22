@@ -62,6 +62,22 @@
     </footer>
 
     <button onclick="topFunction()" id="scrollTopBtn" title="Torna su">↑</button>
+    
+                    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            var btn = document.getElementById("scrollTopBtn");
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
     <script>
         window.onscroll = function() {scrollFunction()};
         function scrollFunction() {
@@ -77,6 +93,6 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-
+                    
 </body>
 </html>
